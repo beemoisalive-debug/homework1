@@ -3,7 +3,7 @@ let stars = [];
 let meteors = [];
 
 function setup() {
-  createCanvas(500, 100);
+  createCanvas(5000, 5000);
 
   for (let i = 0; i < 120; i++) {
     stars.push(new Walker());
