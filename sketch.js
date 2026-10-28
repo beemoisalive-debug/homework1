@@ -31,5 +31,7 @@ function draw() {
 }
 
 function mouseClicked() {
-  meteors.push(new Meteor());
+  for (let i = 0; i < 8; i++) {
+    meteors.push(new Meteor());
+  }
 }
